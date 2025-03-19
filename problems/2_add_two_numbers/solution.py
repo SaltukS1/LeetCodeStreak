@@ -45,7 +45,7 @@ def print_linked_list(head):
         head = head.next
     return values
 
-# Test with example 1
+
 if __name__ == "__main__":
    
     l1 = create_linked_list([2,4,3])

@@ -29,7 +29,7 @@ class Solution(object):
         
         return dummy_head.next
 
-# Test code
+
 def create_linked_list(values):
     dummy = ListNode(0)
     current = dummy

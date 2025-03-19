@@ -35,4 +35,4 @@ The solution uses a sliding window approach with a hash map to track character p
 5. We keep track of character positions in a dictionary for O(1) lookups
 
 Time Complexity: O(n) where n is the length of the string
-Space Complexity: O(min(m, n)) where m is the size of the character set 
+Space Complexity: O(min(m, n)) where m is the size of the character set.

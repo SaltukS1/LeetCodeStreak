@@ -24,4 +24,4 @@ Output: [8,9,9,9,0,0,0,1]
 The solution uses a dummy head node to simplify the linked list creation. We iterate through both linked lists simultaneously, adding corresponding digits along with any carry from previous additions. For each position, we create a new node with the digit (value % 10) and calculate the carry for the next position (value // 10). If there's a carry left after processing both lists, we add an extra node.
 
 Time Complexity: O(max(m,n)) where m and n are the lengths of the two lists.
-Space Complexity: O(max(m,n)) for the result linked list.
+Space Complexity: O(max(m,n)) for the result linked list

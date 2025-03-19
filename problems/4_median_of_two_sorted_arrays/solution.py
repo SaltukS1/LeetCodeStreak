@@ -37,7 +37,6 @@ class Solution(object):
         
         return 0.0  
 
-# Test cases
 if __name__ == "__main__":
     solution = Solution()
     

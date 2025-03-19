@@ -33,4 +33,4 @@ if __name__ == "__main__":
     print(solution.lengthOfLongestSubstring("bbbbb"))  # Expected: 1
     
     # Test case 3
-    print(solution.lengthOfLongestSubstring("pwwkew"))  # Expected: 3 
+    print(solution.lengthOfLongestSubstring("pwwkew"))  

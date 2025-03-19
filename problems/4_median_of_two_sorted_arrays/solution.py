@@ -37,12 +37,11 @@ class Solution(object):
         
         return 0.0  
 
-# Test cases
 if __name__ == "__main__":
     solution = Solution()
     
     # Test case 1
     print(solution.findMedianSortedArrays([1,3], [2]))  
     
-    # Test case 2
+   
     print(solution.findMedianSortedArrays([1,2], [3,4])) 

@@ -50,4 +50,4 @@ if __name__ == "__main__":
     l2 = create_linked_list([5,6,4])
     solution = Solution()
     result = solution.addTwoNumbers(l1, l2)
-    print(print_linked_list(result))  # Should print [7,0,8]
+    print(print_linked_list(result))  

@@ -1,1 +1,1 @@
-Leetcode streak using pyhton.
+30day Leetcode streak using pyhton.

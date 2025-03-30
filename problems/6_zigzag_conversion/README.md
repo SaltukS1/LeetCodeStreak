@@ -55,4 +55,4 @@ Key points:
 - Join rows at the end
 
 Time Complexity: O(n) where n is the length of the string
-Space Complexity: O(n) to store the characters in rows 
+Space Complexity: O(n) to store the characters in row

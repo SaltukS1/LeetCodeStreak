@@ -17,17 +17,17 @@ class Solution(object):
                 right += 1
             return right - left - 1
         
-        # Check each position as potential center
+      
         for i in range(len(s)):
-            # Check odd length palindromes
+        
             len1 = expand_around_center(i, i)
-            # Check even length palindromes
+            
             len2 = expand_around_center(i, i + 1)
             
-            # Get the longer palindrome length
+            #
             curr_len = max(len1, len2)
             
-            # Update if we found a longer palindrome
+           
             if curr_len > max_length:
                 max_length = curr_len
                 start = i - (curr_len - 1) // 2

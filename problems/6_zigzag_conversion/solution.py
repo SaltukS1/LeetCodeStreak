@@ -26,7 +26,7 @@ class Solution(object):
                 if current_row == 0:
                     going_down = True
         
-        # Join all rows to get the final string
+        
         return ''.join(rows)
 
 # Test cases

@@ -29,7 +29,7 @@ class Solution:
                 
                 product = digit1 * digit2 + result[curr_pos]
                 
-                # Update current position and carry
+              
                 result[curr_pos] = product % 10
                 result[carry_pos] += product // 10
         

@@ -3,7 +3,6 @@
 ## Problem Description
 Given two non-negative integers `num1` and `num2` represented as strings, return the product of `num1` and `num2`, also represented as a string.
 
-**Note**: You must not use any built-in BigInteger library or convert the inputs to integer directly.
 
 ## Examples
 ```
@@ -32,4 +31,4 @@ Output: "56088"
    - Handle carry-overs carefully
    - Consider edge cases (zeros, single digits)
    - Time complexity: O(n*m) where n and m are lengths of input strings
-   - Space complexity: O(n+m) for the result array 
+   - Space complexity: O(n+m) for the result array.

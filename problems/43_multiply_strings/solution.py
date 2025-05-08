@@ -27,20 +27,19 @@ class Solution:
                 curr_pos = i + j + 1
                 carry_pos = i + j
                 
-                # Multiply digits and add to current result
                 product = digit1 * digit2 + result[curr_pos]
                 
                 # Update current position and carry
                 result[curr_pos] = product % 10
                 result[carry_pos] += product // 10
         
-        # Convert result to string, removing leading zeros
+       
         result_str = ""
         start_idx = 0
         while start_idx < len(result) and result[start_idx] == 0:
-            start_idx += 1
+            start_idx +=  1
             
-        # Convert digits to string
+
         result_str = "".join(map(str, result[start_idx:]))
         
         return result_str if result_str else "0"
